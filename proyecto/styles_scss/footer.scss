@@ -1,0 +1,76 @@
+.footer {
+	width: 100%;
+	background: #1f1f1f;
+}
+.footer_content {
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 17px;
+}
+.footer_logo {
+	a {
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 20px;
+		font-weight: 700;
+		color: #FFFFFF;
+		letter-spacing: 0.075em;
+		text-transform: uppercase;
+		line-height: 0.75;
+	}
+}
+.footer_social {
+	margin-top: 34px;
+	ul {
+		li {
+			display: inline-block;
+			&:not(:last-child) {
+				margin-right: 21px;
+			}
+			i {
+				color: #8f8f8f;
+			}
+		}
+	}
+}
+.footer_social_facebook {
+	&:hover {
+		i {
+			color: #3b5999;
+		}
+	}
+}
+.footer_social_twitter {
+	&:hover {
+		i {
+			color: #55acee;
+		}
+	}
+}
+.footer_social_pinterest {
+	&:hover {
+		i {
+			color: #bd081c;
+		}
+	}
+}
+.footer_social_vimeo {
+	&:hover {
+		i {
+			color: #1ab7ea;
+		}
+	}
+}
+.footer_social_instagram {
+	&:hover {
+		i {
+			color: #c26d7a;
+		}
+	}
+}
+.footer_social_google {
+	&:hover {
+		i {
+			color: #dd4b39;
+		}
+	}
+}

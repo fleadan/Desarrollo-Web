@@ -1,0 +1,28 @@
+@import 'variables';
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	-webkit-transition: $Trans;
+	-moz-transition: $Trans;
+	-ms-transition: $Trans;
+	-o-transition: $Trans;
+	transition: $Trans;
+}
+.header_content {
+	height: 106px;
+	-webkit-transition: $Trans;
+	-moz-transition: $Trans;
+	-ms-transition: $Trans;
+	-o-transition: $Trans;
+	transition: $Trans;
+}
+.header.scrolled {
+	background: rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+	.header_content {
+		height: 80px;
+	}
+}

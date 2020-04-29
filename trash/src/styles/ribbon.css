@@ -1,0 +1,37 @@
+[class^="ribbon-"] {
+    position: relative;
+}
+
+[class^="ribbon-"]:before,
+[class^="ribbon-"]:after {
+    content: "";
+    position: absolute;
+}
+
+.ribbon-1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 25px;
+    background: #21749a;
+    left: -8px;
+}
+
+.ribbon-1:before {
+    height: 0;
+    width: 0;
+    top: -8px;
+}
+
+.ribbon-1:after {
+    height: 0;
+    width: 0;
+    border-top: 12.5px solid transparent;
+    border-bottom: 12.5px solid transparent;
+    border-left: 15px solid #21749a;
+    right: -15px;
+}
+
+
+/*# sourceMappingURL=ribbon.css.map */

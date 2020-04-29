@@ -1,0 +1,60 @@
+@mixin triangle ($size, $color, $direction) {
+    height: 0;
+    width: 0;
+    $width: nth($size, 1);
+    $height: nth($size, length($size));
+    $foreground-color: nth($color, 1);
+    $background-color: transparent !default;
+    @if (length($color)==2) {
+        $background-color: nth($color, 2);
+    }
+    @if ($direction==up) or ($direction==down) or ($direction==right) or ($direction==left) {
+        $width: $width / 2;
+        @if $direction==right {
+            border-top: $width solid $background-color;
+            border-bottom: $width solid $background-color;
+            border-left: $height solid $foreground-color;
+        }
+        @else if $direction==down {
+            border-left: $width solid $background-color;
+            border-right: $width solid $background-color;
+            border-top: $height solid $foreground-color;
+        }
+    }
+    @else if ($direction==up-right) or ($direction==up-left) {
+        border-top: $height solid $foreground-color;
+        @if $direction==up-right {
+            border-left: $width solid $background-color;
+        }
+        @else if $direction==up-left {
+            border-right: $width solid $background-color;
+        }
+    }
+}
+
+[class^="ribbon-"] {
+    position: relative;
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+    }
+}
+
+.ribbon-1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width: 500px;
+    height: 25px;
+    background: #21749a;
+    left: -8px;
+    &:before {
+        @include triangle(8px, darken(#21749a, 15%), down-right);
+        top: -8px;
+    }
+    &:after {
+        @include triangle(40px 15px, #21749a, right);
+        right: -15px;
+    }
+}

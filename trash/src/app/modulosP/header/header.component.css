@@ -1,0 +1,73 @@
+/*********************************
+3. Header
+*********************************/
+
+.header {
+    background-color: #11111186;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.header_content {
+    height: 80px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.header.scrolled {
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 5px rgba(243, 239, 239, 0.733);
+}
+
+.header.scrolled .header_content {
+    height: 80px;
+}
+
+.logo a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: rgb(223, 208, 208);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.075em;
+}
+
+.main_nav {
+    margin-left: 46px;
+}
+
+.main_nav ul li {
+    display: inline-block;
+}
+
+.main_nav ul li:not(:last-child) {
+    margin-right: 29px;
+}
+
+.main_nav ul li a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(223, 208, 208);
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.main_nav ul li a:hover,
+.main_nav ul li.active a {
+    color: rgb(155, 84, 84);
+}
