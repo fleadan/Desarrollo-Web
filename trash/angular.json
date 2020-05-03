@@ -92,6 +92,12 @@
                     "configurations": {
                         "production": {
                             "browserTarget": "trash:build:production"
+                        },
+                        "es": {
+                            "browserTarget": "trash:build:es"
+                        },
+                        "en": {
+                            "browserTarget": "trash:build:en"
                         }
                     }
                 },

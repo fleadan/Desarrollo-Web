@@ -4,6 +4,7 @@
     <body>
       <trans-unit id="head1" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Conocenos<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Conocenos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/header/header.component.html</context>
           <context context-type="linenumber">11</context>
@@ -11,6 +12,7 @@
       </trans-unit>
       <trans-unit id="head2" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Sign In<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Registrate</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/header/header.component.html</context>
           <context context-type="linenumber">12</context>
@@ -22,6 +24,7 @@
       </trans-unit>
       <trans-unit id="head3" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Log in<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Entrar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/header/header.component.html</context>
           <context context-type="linenumber">13</context>
@@ -29,6 +32,7 @@
       </trans-unit>
       <trans-unit id="head4" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Contactanos<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Contactanos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/header/header.component.html</context>
           <context context-type="linenumber">14</context>
@@ -36,6 +40,7 @@
       </trans-unit>
       <trans-unit id="head5" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Graficas<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Gráficas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/header/header.component.html</context>
           <context context-type="linenumber">15</context>
@@ -43,6 +48,7 @@
       </trans-unit>
       <trans-unit id="head6" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Eng<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Eng</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/header/header.component.html</context>
           <context context-type="linenumber">16</context>
@@ -50,6 +56,7 @@
       </trans-unit>
       <trans-unit id="footer" datatype="html">
         <source>Comparte tu experiencia e invita a tus amigos</source>
+        <target>Comparte tu experiencia e invita a tus amigos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/footer/footer.component.html</context>
           <context context-type="linenumber">14</context>
@@ -57,6 +64,7 @@
       </trans-unit>
       <trans-unit id="dd12d076cac9ac09e7a5711ea84f246d31ea958a" datatype="html">
         <source>CDMXtrash</source>
+        <target>CDMXtrash</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/home-p/home-p.component.html</context>
           <context context-type="linenumber">4</context>
@@ -64,6 +72,7 @@
       </trans-unit>
       <trans-unit id="home1" datatype="html">
         <source>CDMXtrash, es un sistema encargado de ayudar a los usuarios de la Ciudad de México a localizar un lugar donde depositar su basura.</source>
+        <target>CDMXtrash, es un sistema encargado de ayudar a los usuarios de la Ciudad de México a localizar un lugar donde depositar su basura.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/home-p/home-p.component.html</context>
           <context context-type="linenumber">5</context>
@@ -71,6 +80,7 @@
       </trans-unit>
       <trans-unit id="contenido1" datatype="html">
         <source>Para recordar</source>
+        <target>Para recordar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">11</context>
@@ -78,6 +88,7 @@
       </trans-unit>
       <trans-unit id="contenido2" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Conocenos<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Conocenos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">14</context>
@@ -85,6 +96,7 @@
       </trans-unit>
       <trans-unit id="contenido3" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Log In<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Entrar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">15</context>
@@ -92,6 +104,7 @@
       </trans-unit>
       <trans-unit id="contenido4" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Sign In<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Registrate</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">16</context>
@@ -99,6 +112,7 @@
       </trans-unit>
       <trans-unit id="contenido5" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Contáctanos<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Conocenos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">17</context>
@@ -106,6 +120,7 @@
       </trans-unit>
       <trans-unit id="contenido6" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Eng<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Eng</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">18</context>
@@ -113,6 +128,7 @@
       </trans-unit>
       <trans-unit id="contenido7" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>¿Quieres saber como funciona la plataforma?<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>¿Quieres saber como funciona la plataforma</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">28</context>
@@ -120,6 +136,7 @@
       </trans-unit>
       <trans-unit id="contenido8" datatype="html">
         <source>Contamos con un sistema de geolocalización de los botes más cercanos</source>
+        <target>Contamos con un sistema de geolocalización de los botes más cercanos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">29</context>
@@ -127,6 +144,7 @@
       </trans-unit>
       <trans-unit id="contenido9" datatype="html">
         <source>Marzo 05, 2020 a las 9:48 pm</source>
+        <target>Marzo 05, 2020 a las 9:48 pm</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">30</context>
@@ -134,6 +152,7 @@
       </trans-unit>
       <trans-unit id="contenido10" datatype="html">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>¿Sabes de la importancia del reciclaje?<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>¿Sabes de la importancia del reciclaje?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">36</context>
@@ -141,6 +160,7 @@
       </trans-unit>
       <trans-unit id="contenido11" datatype="html">
         <source>Marzo 05, 2020 a las 9:48 pm</source>
+        <target>Marzo 05, 2020 a las 9:48 pm</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">37</context>
@@ -148,13 +168,15 @@
       </trans-unit>
       <trans-unit id="contenido12" datatype="html">
         <source>Load More</source>
+        <target>Cargar más</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="contenido13" datatype="html">
-        <source>Conamat</source>
+        <source>CONAMAT</source>
+        <target>CONAMAT</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">58</context>
@@ -162,6 +184,7 @@
       </trans-unit>
       <trans-unit id="contenido14" datatype="html">
         <source>¿Clases de regularización?</source>
+        <target>¿Clases de regularización?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">59</context>
@@ -169,6 +192,7 @@
       </trans-unit>
       <trans-unit id="contenido15" datatype="html">
         <source>Tecnológico de Monterrey</source>
+        <target>Tecnológico de Monterrey</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">67</context>
@@ -176,6 +200,7 @@
       </trans-unit>
       <trans-unit id="contenido16" datatype="html">
         <source>Acercate al programa</source>
+        <target>Acercate al programa</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">68</context>
@@ -183,6 +208,7 @@
       </trans-unit>
       <trans-unit id="contenido17" datatype="html">
         <source>Planeación del proyecto</source>
+        <target>Planeación del proyecto</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido/contenido.component.html</context>
           <context context-type="linenumber">74</context>
@@ -190,6 +216,7 @@
       </trans-unit>
       <trans-unit id="menu1" datatype="html">
         <source>Home</source>
+        <target>Home</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/menu/menu.component.html</context>
           <context context-type="linenumber">8</context>
@@ -197,6 +224,7 @@
       </trans-unit>
       <trans-unit id="menu2" datatype="html">
         <source>Log in </source>
+        <target>Entrar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/menu/menu.component.html</context>
           <context context-type="linenumber">14</context>
@@ -204,6 +232,7 @@
       </trans-unit>
       <trans-unit id="menu3" datatype="html">
         <source>Sign in </source>
+        <target>Registrarse</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/menu/menu.component.html</context>
           <context context-type="linenumber">20</context>
@@ -211,6 +240,7 @@
       </trans-unit>
       <trans-unit id="menu4" datatype="html">
         <source>Registrar botes</source>
+        <target>Registrar botes</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/menu/menu.component.html</context>
           <context context-type="linenumber">26</context>
@@ -218,6 +248,7 @@
       </trans-unit>
       <trans-unit id="menu5" datatype="html">
         <source>Conocenos</source>
+        <target>Conocenos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/menu/menu.component.html</context>
           <context context-type="linenumber">32</context>
@@ -225,6 +256,7 @@
       </trans-unit>
       <trans-unit id="menu6" datatype="html">
         <source>Logout</source>
+        <target>Salir</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/menu/menu.component.html</context>
           <context context-type="linenumber">40</context>
@@ -232,6 +264,7 @@
       </trans-unit>
       <trans-unit id="barra1" datatype="html">
         <source>Capacidad instalada autorizada para el reciclaje y el tratamiento de los residuos sólidos urbanos en México</source>
+        <target>Capacidad instalada autorizada para el reciclaje y el tratamiento de los residuos sólidos urbanos en México</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/barra/barra.component.html</context>
           <context context-type="linenumber">4</context>
@@ -239,6 +272,7 @@
       </trans-unit>
       <trans-unit id="barra2" datatype="html">
         <source>[En millones de Toneladas]</source>
+        <target>[En millones de Toneladas]</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/barra/barra.component.html</context>
           <context context-type="linenumber">5</context>
@@ -246,6 +280,7 @@
       </trans-unit>
       <trans-unit id="barra3" datatype="html">
         <source>SEMARNAT</source>
+        <target>SEMARNAT</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/barra/barra.component.html</context>
           <context context-type="linenumber">6</context>
@@ -253,6 +288,7 @@
       </trans-unit>
       <trans-unit id="barra4" datatype="html">
         <source>El reciclaje</source>
+        <target>El reciclaje</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/barra/barra.component.html</context>
           <context context-type="linenumber">14</context>
@@ -261,6 +297,8 @@
       <trans-unit id="barra5" datatype="html">
         <source>“Los ciudadanos estamos tomando en cuenta que México tiene un potencial turístico grande. El país va caminando en ese proceso más participativo, pero todavía se necesita esa pinza entre la educación y la aplicación de la ley para ver un cambio.
                 El manejo no adecuado de la basura es tarea de la sociedad, la industria, el gobierno, el comercio, de todos los actores involucrados.”</source>
+        <target>“Los ciudadanos estamos tomando en cuenta que México tiene un potencial turístico grande. El país va caminando en ese proceso más participativo, pero todavía se necesita esa pinza entre la educación y la aplicación de la ley para ver un cambio.
+                El manejo no adecuado de la basura es tarea de la sociedad, la industria, el gobierno, el comercio, de todos los actores involucrados.”</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/barra/barra.component.html</context>
           <context context-type="linenumber">15</context>
@@ -268,6 +306,7 @@
       </trans-unit>
       <trans-unit id="pagen1" datatype="html">
         <source>ERROR 404, PAGE NOT FOUND</source>
+        <target>ERROR 404, PAGE NOT FOUND</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main-components/page-not-found/page-not-found.component.html</context>
           <context context-type="linenumber">1</context>
@@ -275,6 +314,7 @@
       </trans-unit>
       <trans-unit id="registrar1" datatype="html">
         <source>Ingresa el tipo de bote de basura</source>
+        <target>Ingresa el tipo de bote de basura</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/registrar/registrar.component.html</context>
           <context context-type="linenumber">15</context>
@@ -282,6 +322,7 @@
       </trans-unit>
       <trans-unit id="registrar2" datatype="html">
         <source>Tipo</source>
+        <target>Tipo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/registrar/registrar.component.html</context>
           <context context-type="linenumber">20</context>
@@ -289,6 +330,7 @@
       </trans-unit>
       <trans-unit id="registrar3" datatype="html">
         <source>Descripción</source>
+        <target>Descripción</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/registrar/registrar.component.html</context>
           <context context-type="linenumber">21</context>
@@ -296,6 +338,7 @@
       </trans-unit>
       <trans-unit id="registrar4" datatype="html">
         <source>Elección</source>
+        <target>Elección</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/registrar/registrar.component.html</context>
           <context context-type="linenumber">22</context>
@@ -303,6 +346,7 @@
       </trans-unit>
       <trans-unit id="registrar5" datatype="html">
         <source>Numero: <x id="INTERPOLATION" equiv-text="{{boteSeleccion.num}}"/></source>
+        <target>Número</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/registrar/registrar.component.html</context>
           <context context-type="linenumber">36</context>
@@ -310,6 +354,7 @@
       </trans-unit>
       <trans-unit id="registrar6" datatype="html">
         <source>Descripción: <x id="INTERPOLATION" equiv-text="{{boteSeleccion.description}}"/></source>
+        <target>Descripción</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/registrar/registrar.component.html</context>
           <context context-type="linenumber">37</context>
@@ -317,6 +362,7 @@
       </trans-unit>
       <trans-unit id="ad43d6e91ea73a82d759e23291fc863241134900" datatype="html">
         <source>Cambiar</source>
+        <target>Cambiar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/registrar/registrar.component.html</context>
           <context context-type="linenumber">39</context>
@@ -324,6 +370,7 @@
       </trans-unit>
       <trans-unit id="registrar7" datatype="html">
         <source>Ingresa la ubicación ubicación del bote de basura</source>
+        <target>Ingresa la ubicación ubicación del bote de basura</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/registrar/registrar.component.html</context>
           <context context-type="linenumber">43</context>
@@ -331,6 +378,7 @@
       </trans-unit>
       <trans-unit id="contenidof1" datatype="html">
         <source>Marzo 04, 2020 a las 16:19 am</source>
+        <target>Marzo 04, 2020 a las 16:19 am</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">17</context>
@@ -338,6 +386,7 @@
       </trans-unit>
       <trans-unit id="contenidof2" datatype="html">
         <source>share</source>
+        <target>Compartir</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">19</context>
@@ -345,6 +394,7 @@
       </trans-unit>
       <trans-unit id="contenidof3" datatype="html">
         <source>Localiza los botes de basura más cercanos</source>
+        <target>Localiza los botes de basura más cercanos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">30</context>
@@ -352,6 +402,7 @@
       </trans-unit>
       <trans-unit id="contenidof4" datatype="html">
         <source>De acuerdo a tu ubicación te asignaremos la ruta al bote de basura más cercano</source>
+        <target>De acuerdo a tu ubicación te asignaremos la ruta al bote de basura más cercano</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">31</context>
@@ -359,6 +410,7 @@
       </trans-unit>
       <trans-unit id="contenidof5" datatype="html">
         <source>Ciudad de México Contaminada</source>
+        <target>Ciudad de México Contaminada</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">34</context>
@@ -366,6 +418,7 @@
       </trans-unit>
       <trans-unit id="contenidof6" datatype="html">
         <source>Fijar ruta de los elementos encontrados</source>
+        <target>Fijar ruta de los elementos encontrados</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">38</context>
@@ -373,6 +426,7 @@
       </trans-unit>
       <trans-unit id="contenidof7" datatype="html">
         <source>Bote</source>
+        <target>Bote</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">45</context>
@@ -380,6 +434,7 @@
       </trans-unit>
       <trans-unit id="contenidof8" datatype="html">
         <source>Tipo</source>
+        <target>Tipo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">46</context>
@@ -387,6 +442,7 @@
       </trans-unit>
       <trans-unit id="contenidof9" datatype="html">
         <source>Descripción</source>
+        <target>Descripcion</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">47</context>
@@ -394,6 +450,7 @@
       </trans-unit>
       <trans-unit id="contenidof10" datatype="html">
         <source>Elección</source>
+        <target>Elección</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">48</context>
@@ -401,6 +458,7 @@
       </trans-unit>
       <trans-unit id="contenidof11" datatype="html">
         <source>Bote: <x id="INTERPOLATION" equiv-text="{{boteSeleccion.name}}"/></source>
+        <target>Bote:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">64</context>
@@ -408,6 +466,7 @@
       </trans-unit>
       <trans-unit id="contenidof12" datatype="html">
         <source>Numero: <x id="INTERPOLATION" equiv-text="{{boteSeleccion.num}}"/></source>
+        <target>Número:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">65</context>
@@ -415,6 +474,7 @@
       </trans-unit>
       <trans-unit id="contenidof13" datatype="html">
         <source>Descripción: <x id="INTERPOLATION" equiv-text="{{boteSeleccion.description}}"/></source>
+        <target>Descripción:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">66</context>
@@ -422,6 +482,7 @@
       </trans-unit>
       <trans-unit id="0ee830da8f873f84ed813583c0b7f389c8456041" datatype="html">
         <source>Fijar</source>
+        <target>Fijar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">67</context>
@@ -429,6 +490,7 @@
       </trans-unit>
       <trans-unit id="contenidof14" datatype="html">
         <source>Load More</source>
+        <target>Cargar más</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">72</context>
@@ -436,6 +498,7 @@
       </trans-unit>
       <trans-unit id="contenidof16" datatype="html">
         <source>Tecnológico de Monterrey</source>
+        <target>Tecnológico de Monterrey</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">97</context>
@@ -443,6 +506,7 @@
       </trans-unit>
       <trans-unit id="contenidof17" datatype="html">
         <source>Acercate al programa</source>
+        <target>Acercate al programa</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">98</context>
@@ -450,6 +514,7 @@
       </trans-unit>
       <trans-unit id="contenidof18" datatype="html">
         <source>Planeación del proyecto</source>
+        <target>Planeación del proyecto</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenidof/contenidof.component.html</context>
           <context context-type="linenumber">104</context>
@@ -457,6 +522,7 @@
       </trans-unit>
       <trans-unit id="contenidoc1" datatype="html">
         <source>Marzo 04, 2020 a las 16:19 am</source>
+        <target>Marzo 04, 2020 a las 16:19 am</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">17</context>
@@ -464,6 +530,7 @@
       </trans-unit>
       <trans-unit id="contenidoc2" datatype="html">
         <source>share</source>
+        <target>Compartir</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">19</context>
@@ -471,6 +538,7 @@
       </trans-unit>
       <trans-unit id="contenidoc3" datatype="html">
         <source>Descripción del sistema</source>
+        <target>Descripción del sistema</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">31</context>
@@ -482,6 +550,11 @@
                             proveer su propio bote de basura para los demás, también puede registrarlo. Por otro lado, el sistema será capaz de obtener la retroalimentación de los botes de basura, para que estos se encuentren en buen mantenimeinto y en
                             una posición accesible para los demás usuarios. Estos botes de basura serán identificados con un icono para identificar si en ese bote es posible depositar PET, Tetrapack, aparatos electrónicos, cascajos, etc; esto con la finalidad
                             de contribuir no solo a la cultura del cuidado ambiental, sino también de la cultura del reciclaje. Nuestro objetivo general es el de proveer a la Ciudad de México un mejor lugar y más limpio para vivir.</source>
+        <target>DMXtrash, es un sistema encargado de ayudar a los usuarios de la Ciudad de México a localizar un lugar donde depositar su basura. El usuario podrá, mediante diversos iconos o colores, indicar el tipo de basura de el que desea
+                            deshacerse y de esa manera encontrar el bote de basura más cercano a su localización actual, después se le indicará la ruta para llegar a él. En el sistema se registran nuevos botes de basura públicos, y si algún usuario desea
+                            proveer su propio bote de basura para los demás, también puede registrarlo. Por otro lado, el sistema será capaz de obtener la retroalimentación de los botes de basura, para que estos se encuentren en buen mantenimeinto y en
+                            una posición accesible para los demás usuarios. Estos botes de basura serán identificados con un icono para identificar si en ese bote es posible depositar PET, Tetrapack, aparatos electrónicos, cascajos, etc; esto con la finalidad
+                            de contribuir no solo a la cultura del cuidado ambiental, sino también de la cultura del reciclaje. Nuestro objetivo general es el de proveer a la Ciudad de México un mejor lugar y más limpio para vivir.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">32</context>
@@ -489,6 +562,7 @@
       </trans-unit>
       <trans-unit id="contenidoc5" datatype="html">
         <source>Ciudad de México Contaminada</source>
+        <target>Ciudad de México Contaminada</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">39</context>
@@ -496,6 +570,7 @@
       </trans-unit>
       <trans-unit id="contenidoc6" datatype="html">
         <source>Descripción de la Problemática a resolver</source>
+        <target>Descripción de la Problemática a resolver</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">41</context>
@@ -506,6 +581,10 @@
                             esparcida por doquier y para ser que nadie se hacer cargo de esto. Como sabemos, pocas partes de la ciudad como el Zócalo, cuentan con diversos botes de basura, sin embargo la mayor parte de las calles no cuentan con botes
                             o con centros de recolección de la misma. Es por eso que si un usuario quiere poner a disposición sus botes de basura para colocarlos en la calle, permitirá resolver esta necesidad, generando calles más limpias disminuyendo
                             la contaminación tanto de agua, tierra o aire.</source>
+        <target>Normalmente en la CIudad de México y en otras partes de la república y en general en todo el mundo, la basura es un problema que en la actualidad ha ganado terreno; cada día observamos en la calle montones de montículos de basura
+                            esparcida por doquier y para ser que nadie se hacer cargo de esto. Como sabemos, pocas partes de la ciudad como el Zócalo, cuentan con diversos botes de basura, sin embargo la mayor parte de las calles no cuentan con botes
+                            o con centros de recolección de la misma. Es por eso que si un usuario quiere poner a disposición sus botes de basura para colocarlos en la calle, permitirá resolver esta necesidad, generando calles más limpias disminuyendo
+                            la contaminación tanto de agua, tierra o aire.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">42</context>
@@ -520,6 +599,7 @@
       </trans-unit>
       <trans-unit id="contenidoc9" datatype="html">
         <source>Forma para solucionar la problemática</source>
+        <target>Forma para solucionar la problemátic</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">50</context>
@@ -528,6 +608,8 @@
       <trans-unit id="contenidoc10" datatype="html">
         <source>Se realizará una aplicación Web para que lo usuarios que quieran poner a disposición su bote de basura puedan darlo de alto al sistema; por otro lado, si un usuario tiene la necesidad de tirar basura, este mismo puede buscar cuales
                             son los botes de basura más cercanos a su posición, con la comodidad de buscar él mismo la ruta más rápida y con la comodidad de escuchar música de Spotify mientras realiza su recorrido.</source>
+        <target>Se realizará una aplicación Web para que lo usuarios que quieran poner a disposición su bote de basura puedan darlo de alto al sistema; por otro lado, si un usuario tiene la necesidad de tirar basura, este mismo puede buscar cuales
+                            son los botes de basura más cercanos a su posición, con la comodidad de buscar él mismo la ruta más rápida y con la comodidad de escuchar música de Spotify mientras realiza su recorrido.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">51</context>
@@ -535,6 +617,7 @@
       </trans-unit>
       <trans-unit id="contenidoc11" datatype="html">
         <source>Ciudad de México Contaminada</source>
+        <target>Ciudad de México Contaminada</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">55</context>
@@ -542,6 +625,7 @@
       </trans-unit>
       <trans-unit id="contenidoc12" datatype="html">
         <source>Diferenciador con respecto a otras soluciones</source>
+        <target>Diferenciador con respecto a otras soluciones</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">57</context>
@@ -550,6 +634,8 @@
       <trans-unit id="contenidoc13" datatype="html">
         <source>Realmente al momento no existe una solución similar que permita encontrar los botes de basura, por otro lado el diferenciador importante que promete el uso de esta aplicación es que los mismos ciudadanos pueden poner a disposición
                             su propio bote de basura; permitiéndoles recibir bonificaciones, pero lo más importante es el poder involucrar a las personas a realizar acciones involucradas a la cultura del medio ambiente.</source>
+        <target>Realmente al momento no existe una solución similar que permita encontrar los botes de basura, por otro lado el diferenciador importante que promete el uso de esta aplicación es que los mismos ciudadanos pueden poner a disposición
+                            su propio bote de basura; permitiéndoles recibir bonificaciones, pero lo más importante es el poder involucrar a las personas a realizar acciones involucradas a la cultura del medio ambiente.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">58</context>
@@ -557,6 +643,7 @@
       </trans-unit>
       <trans-unit id="contenidoc14" datatype="html">
         <source>Ciudad de México Contaminada</source>
+        <target>Ciudad de México Contaminada</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">62</context>
@@ -564,6 +651,7 @@
       </trans-unit>
       <trans-unit id="contenidoc15" datatype="html">
         <source>Nuestra inspiración</source>
+        <target>Nuestra inspiración</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">64</context>
@@ -573,6 +661,9 @@
         <source>Algunas soluciones similares que se han incluido para el manejo de los residuos sólidos, es el desarrollo de la aplicación GreenApp, usada en Europa con el propósito de indicar a los usuarios en qué tipo de bote de basura debe
                             depositar su propia basura, para poder generar un reciclaje mayormente informado. Además es importante mencionar que permite indicar si el depósito ya está lleno o si el depósito aún tiene espacio para más basura por medio
                             de iconos. Así mismo las personas pueden reportar si los contenedores están dañados, son inaccesibles, si está contaminado o algún otro problema.</source>
+        <target>Algunas soluciones similares que se han incluido para el manejo de los residuos sólidos, es el desarrollo de la aplicación GreenApp, usada en Europa con el propósito de indicar a los usuarios en qué tipo de bote de basura debe
+                            depositar su propia basura, para poder generar un reciclaje mayormente informado. Además es importante mencionar que permite indicar si el depósito ya está lleno o si el depósito aún tiene espacio para más basura por medio
+                            de iconos. Así mismo las personas pueden reportar si los contenedores están dañados, son inaccesibles, si está contaminado o algún otro problema.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">65</context>
@@ -580,6 +671,7 @@
       </trans-unit>
       <trans-unit id="contenidoc17" datatype="html">
         <source>Post Comment</source>
+        <target>Comentarios</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">75</context>
@@ -587,6 +679,7 @@
       </trans-unit>
       <trans-unit id="contenidoc21" datatype="html">
         <source>Comments <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>(12)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Comentarios</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">91</context>
@@ -594,6 +687,7 @@
       </trans-unit>
       <trans-unit id="contenidoc22" datatype="html">
         <source>Marzo 02, 2020 a las  7:48 am</source>
+        <target>Marzo 02, 2020 a las  7:48 am</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">102</context>
@@ -602,6 +696,8 @@
       <trans-unit id="contenidoc24" datatype="html">
         <source>Yo como contribuyente de botes de basura de PET necesito registrar los botes de basura aportados junto con su localización para que la gente pueda encontrarlos mediante la aplicación y tenerlos en
                                                             mantenimiento adecuado.</source>
+        <target>Yo como contribuyente de botes de basura de PET necesito registrar los botes de basura aportados junto con su localización para que la gente pueda encontrarlos mediante la aplicación y tenerlos en
+                                                            mantenimiento adecuado.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">106</context>
@@ -609,6 +705,7 @@
       </trans-unit>
       <trans-unit id="contenidoc25" datatype="html">
         <source>Marzo 04, 2020 a las  11:48 am</source>
+        <target>Marzo 04, 2020 a las  11:48 am</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">119</context>
@@ -617,6 +714,8 @@
       <trans-unit id="contenidoc27" datatype="html">
         <source>Yo como contribuyente de botes de basura de Tetrapack necesito registrar los botes de basura aportados junto con su localización para que la gente pueda encontrarlos mediante la aplicación
                                                                     y tenerlos en mantenimiento adecuado.</source>
+        <target>Yo como contribuyente de botes de basura de Tetrapack necesito registrar los botes de basura aportados junto con su localización para que la gente pueda encontrarlos mediante la aplicación
+                                                                    y tenerlos en mantenimiento adecuado.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">123</context>
@@ -624,6 +723,7 @@
       </trans-unit>
       <trans-unit id="contenidoc28" datatype="html">
         <source>Marzo 05, 2020 a las  9:48 am</source>
+        <target>Marzo 05, 2020 a las  9:48 am</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">141</context>
@@ -632,13 +732,16 @@
       <trans-unit id="contenidoc30" datatype="html">
         <source>Yo como contribuyente de botes de basura de cascajo necesito registrar los botes de basura aportados junto con su localización para que la gente pueda encontrarlos mediante la aplicación y tenerlos
                                                             en mantenimiento adecuado.</source>
+        <target>Yo como contribuyente de botes de basura de cascajo necesito registrar los botes de basura aportados junto con su localización para que la gente pueda encontrarlos mediante la aplicación y tenerlos
+                                                            en mantenimiento adecuado.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">145</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d1e8b409f560ae87d6422d45d2417c3f23fd9d72" datatype="html">
-        <source>Conamat</source>
+        <source>CONAMAT</source>
+        <target>CONAMAT</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">173</context>
@@ -646,6 +749,7 @@
       </trans-unit>
       <trans-unit id="54b14bce3bf36db415aedd59bb154b70ff4323c5" datatype="html">
         <source>¿Clases de regularización?</source>
+        <target>¿Clases de regularización?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">174</context>
@@ -653,6 +757,7 @@
       </trans-unit>
       <trans-unit id="ab11194d78b453ab6752ca064b11b9a4033857b9" datatype="html">
         <source>Tecnológico de Monterrey</source>
+        <target>Tecnológico de Monterrey</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">182</context>
@@ -660,6 +765,7 @@
       </trans-unit>
       <trans-unit id="08bd914164e13332329f427e56234875d7abefdd" datatype="html">
         <source>Acercate al programa</source>
+        <target>Acercate al programa</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">183</context>
@@ -667,6 +773,7 @@
       </trans-unit>
       <trans-unit id="4f24dc38bd1213836728c70fb6f2a676abe918d0" datatype="html">
         <source>Planeación del proyecto</source>
+        <target>Planeación del proyecto</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/contenido-c/contenido-c.component.html</context>
           <context context-type="linenumber">189</context>
@@ -674,6 +781,7 @@
       </trans-unit>
       <trans-unit id="baja1" datatype="html">
         <source>Enviar</source>
+        <target>Enviar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/modulos-secundarios/baja/baja.component.html</context>
           <context context-type="linenumber">16</context>

@@ -19,6 +19,7 @@ import { ModulosSecundariosModule } from './modules/modulos-secundarios/modulos-
 import { ContenidoComponent } from './modules/modulos-secundarios/contenido/contenido.component';
 import { BarraComponent } from './modules/modulos-secundarios/barra/barra.component';
 import { ChartsModule} from  'ng2-charts';
+import { PageNotFoundComponent } from './main-components/page-not-found/page-not-found.component';
 
 
 registerLocaleData(localeEs,'es-MX');
@@ -32,7 +33,8 @@ registerLocaleData(localeEn,'en');
     HomePComponent,
     ContenidoComponent,
     MenuComponent,
-    BarraComponent
+    BarraComponent, 
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

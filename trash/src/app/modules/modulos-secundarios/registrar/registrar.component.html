@@ -12,14 +12,14 @@
                             <form>
                                 <br><br>
                                 <div class="alignCenter">
-                                    <h3 i18n>Ingresa el tipo de bote de basura</h3>
+                                    <h3 i18n="@@registrar1">Ingresa el tipo de bote de basura</h3>
                                     <div>
                                     </div>
                                     <table>
                                         <thead>
-                                            <th>Tipo</th>
-                                            <th>Descripción</th>
-                                            <th>Elección</th>
+                                            <th i18n="@@registrar2">Tipo</th>
+                                            <th i18n="@@registrar3">Descripción</th>
+                                            <th i18n="@@registrar4">Elección</th>
                                         </thead>
                                         <tbody>
                                             <tr *ngFor="let bote of botes">
@@ -33,20 +33,20 @@
                                     </table>
                                     <div></div>
                                     <div *ngIf="boteSeleccion">
-                                        <h5>Numero: {{boteSeleccion.num}}</h5>
-                                        <h5>Descripción: {{boteSeleccion.description}}</h5>
+                                        <h5 i18n="@@registrar5">Numero: {{boteSeleccion.num}}</h5>
+                                        <h5 i18n="@@registrar6">Descripción: {{boteSeleccion.description}}</h5>
                                         <input type="text" [(ngModel)]="boteSeleccion.description" placeholder="description" />
                                         <button type="submit" class="contact_button" i18n>Cambiar</button>
                                     </div>
                                 </div>
                                 <br>
-                                <h3 i18n>Ingresa la ubicación ubicación del bote de basura</h3>
+                                <h3 i18n="@@registrar7">Ingresa la ubicación ubicación del bote de basura</h3>
                                 <div class="alignCenter">
                                     <img src="assets/map.jpg" alt="map" height="350" width="350">
                                 </div>
 
                                 <br>
-                                <button type="submit" class="contact_button" i18n>Enviar</button>
+                                <button type="submit" class="contact_button" data-i18n="@@registrar8"><a routerLink="find">Enviar</a></button>
                             </form>
                         </div>
                     </div>

@@ -1,10 +1,10 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import {ModulosSecundariosModule} from './modules/modulos-secundarios/modulos-secundarios.module';
-import{ PageNotFoundComponent} from './main-components/page-not-found/page-not-found.component';
+import { PageNotFoundComponent} from './main-components/page-not-found/page-not-found.component';
 
 const rutas: Routes=[
-    {path: 'secundarios', loadChildren:'.modules/modulos-secundarios/modulos-secundarios.component#ModulosSecundariosModule'},
+    {path: 'secundarios', loadChildren:'./modules/modulos-secundarios/modulos-secundarios.module#ModulosSecundariosModule'},
     {path: '**', component:PageNotFoundComponent}
 ]
 @NgModule({

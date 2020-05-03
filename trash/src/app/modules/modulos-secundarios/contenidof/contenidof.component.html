@@ -14,9 +14,9 @@
                         <div class="author_image">
                             <div><img src="assets/author.jpg" alt=""></div>
                         </div>
-                        <div class="post_meta"><a href="#">Enrique Orduña</a><span i18n>Marzo 04, 2020 a las 16:19 am</span></div>
+                        <div class="post_meta"><a href="#">Enrique Orduña</a><span i18n="@@contenidof1">Marzo 04, 2020 a las 16:19 am</span></div>
                         <div class="post_share ml-sm-auto">
-                            <span i18n>share</span>
+                            <span i18n="@@contenidof2">share</span>
                             <ul class="post_share_list">
                                 <li class="post_share_item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                 <li class="post_share_item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -27,25 +27,25 @@
                     <!-- Post Body -->
 
                     <div class="post_body">
-                        <h3 i18n>Localiza los botes de basura más cercanos</h3>
-                        <p class="post_p" i18n>De acuerdo a tu ubicación te asignaremos la ruta al bote de basura más cercano</p>
+                        <h3 i18n="@@contenidof3">Localiza los botes de basura más cercanos</h3>
+                        <p class="post_p" i18n="@@contenidof4">De acuerdo a tu ubicación te asignaremos la ruta al bote de basura más cercano</p>
                         <figure>
                             <img src="assets/map.jpg" alt="">
-                            <figcaption>Ciudad de México Contaminada</figcaption>
+                            <figcaption i18n="@@contenidof5">Ciudad de México Contaminada</figcaption>
                         </figure>
 
                         <!--Elementos encontrados-->
-                        <h3>Fijar ruta de los elementos encontrados</h3>
+                        <h3 i18n="@@contenidof6">Fijar ruta de los elementos encontrados</h3>
                         <div>
 
 
                         </div>
                         <table>
                             <thead>
-                                <th>Bote</th>
-                                <th>Tipo</th>
-                                <th>Descripción</th>
-                                <th>Elección</th>
+                                <th i18n="@@contenidof7">Bote</th>
+                                <th i18n="@@contenidof8">Tipo</th>
+                                <th i18n="@@contenidof9">Descripción</th>
+                                <th i18n="@@contenidof10">Elección</th>
                             </thead>
                             <tbody>
                                 <tr *ngFor="let bote of botes">
@@ -61,20 +61,15 @@
                         <div></div>
                         <div *ngIf="boteSeleccion">
 
-                            <h5>Bote: {{boteSeleccion.name}}</h5>
-                            <h5>Numero: {{boteSeleccion.num}}</h5>
-                            <h5>Descripción: {{boteSeleccion.description}}</h5>
+                            <h5 i18n="@@contenidof11">Bote: {{boteSeleccion.name}}</h5>
+                            <h5 i18n="@@contenidof12">Numero: {{boteSeleccion.num}}</h5>
+                            <h5 i18n="@@contenidof13">Descripción: {{boteSeleccion.description}}</h5>
                             <button type="submit" class="contact_button" i18n>Fijar</button>
                         </div>
                     </div>
-
-
-
-
-
                 </div>
                 <div class="load_more">
-                    <div id="load_more" class="load_more_button text-center trans_200" i18n>Load More</div>
+                    <div id="load_more" class="load_more_button text-center trans_200" i18n="@@contenidof14">Load More</div>
                 </div>
             </div>
 
@@ -88,7 +83,7 @@
                     <!-- Botes registrados -->
                     <div></div>
                     <div class="list-group">
-                        <button type="button" class="list-group-item list-group-item-action active">Botes registrados</button>
+                        <button type="button" class="list-group-item list-group-item-action active" data-i18n="@@contenidof15">Botes registrados</button>
                         <button type="button" class="list-group-item list-group-item-action">#5485</button>
                         <button type="button" class="list-group-item list-group-item-action">#5487</button>
                         <button type="button" class="list-group-item list-group-item-action">#5787</button>
@@ -99,23 +94,23 @@
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="assets/beca.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title" i18n>Tecnológico de Monterrey</h5>
-                            <p class="card-text" i18n>Acercate al programa</p>
+                            <h5 class="card-title" i18n="@@contenidof16">Tecnológico de Monterrey</h5>
+                            <p class="card-text" i18n="@@contenidof17">Acercate al programa</p>
                             <a href="#" class="btn btn-primary">ITESM.mx</a>
                         </div>
                     </div>
                     <!-- Future Events -->
                     <div></div>
-                    <div class="sidebar_title" i18n>Planeación del proyecto</div>
+                    <div class="sidebar_title" i18n="@@contenidof18">Planeación del proyecto</div>
                     <!-- Avisos sobre botes -->
                     <div class="list-group">
-                        <button type="button" class="list-group-item list-group-item-action active">
-								Cras justo odio
+                        <button type="button" class="list-group-item list-group-item-action active" data-i18n="@@contenidof19">
+								Colección de botes
 								</button>
-                        <button type="button" class="list-group-item list-group-item-action">#5477 Dañado</button>
-                        <button type="button" class="list-group-item list-group-item-action">#5485 Sin acceso</button>
-                        <button type="button" class="list-group-item list-group-item-action">#5487 Desaparecido</button>
-                        <button type="button" class="list-group-item list-group-item-action">#5485 Sucio</button>
+                        <button type="button" class="list-group-item list-group-item-action" data-i18n="@@contenidof19">#5477 Dañado</button>
+                        <button type="button" class="list-group-item list-group-item-action" data-i18n="@@contenidof20">#5485 Sin acceso</button>
+                        <button type="button" class="list-group-item list-group-item-action" data-i18n="@@contenidof21">#5487 Desaparecido</button>
+                        <button type="button" class="list-group-item list-group-item-action" data-i18n="@@contenidof22">#5485 Sucio</button>
                     </div>
                 </div>
             </div>
