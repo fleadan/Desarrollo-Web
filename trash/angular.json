@@ -42,6 +42,21 @@
                         "scripts": []
                     },
                     "configurations": {
+
+                        "es": {
+                            "aot": true,
+                            "i18nFile": "src/locale/messages.es.xlf",
+                            "i18nFormat": "xlf",
+                            "i18nLocale": "es",
+                            "i18nMissingTranslation": "error"
+                        },
+                        "en": {
+                            "aot": true,
+                            "i18nFile": "src/locale/messages.en.xlf",
+                            "i18nFormat": "xlf",
+                            "i18nLocale": "en",
+                            "i18nMissingTranslation": "error"
+                        },
                         "production": {
                             "fileReplacements": [{
                                 "replace": "src/environments/environment.ts",

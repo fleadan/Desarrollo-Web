@@ -4,11 +4,55 @@
 1. Fonts
 ***********/
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+* {
+    font-family: Roboto;
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700|Work+Sans:300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:300,400,700');
 
 /*********************************
 2. Body and some general stuff
 *********************************/
+
+
+/*TABLAs*/
+
+table {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table tr {
+    background-color: #eee;
+}
+
+td {
+    min-width: 60px;
+}
+
+table tr:nth-child(2) {
+    background-color: #eee;
+}
+
+.but {
+    min-width: 80px;
+}
+
+.but1 {
+    min-width: 360px;
+}
 
 * {
     margin: 0;
@@ -198,7 +242,6 @@ section {
 .super_container {
     width: 100%;
     overflow: hidden;
-    padding-bottom: 5%;
 }
 
 .prlx_parent {
@@ -293,8 +336,6 @@ section {
 4. Menu
 *********************************/
 
-@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
 .fa-2x {
     font-size: 2em;
 }
@@ -438,7 +479,6 @@ nav.main-menu li.active>a,
 5. Home
 *********************************/
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:300,400,700');
 .img-responsive {
     max-width: 100%;
     height: auto;
@@ -968,11 +1008,6 @@ nav.main-menu li.active>a,
 /*********************************
 10. Footer
 *********************************/
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
-* {
-    font-family: Roboto;
-}
 
 section {
     width: 100%;

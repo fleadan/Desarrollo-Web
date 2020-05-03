@@ -1,0 +1,57 @@
+<!-- Home -->
+
+<div class="home">
+    <div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/fondoi.jpg" data-speed="0.8"></div>
+    <div class="home_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <!-- Post Comment -->
+                    <div class="post_comment">
+                        <div class="contact_form_container">
+                            <form>
+                                <br><br>
+                                <div class="alignCenter">
+                                    <h3 i18n>Ingresa el tipo de bote de basura</h3>
+                                    <div>
+                                    </div>
+                                    <table>
+                                        <thead>
+                                            <th>Tipo</th>
+                                            <th>Descripción</th>
+                                            <th>Elección</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr *ngFor="let bote of botes">
+                                                <td>{{bote.name}}</td>
+                                                <td class="but1"> <a (click)="onSelect(bote)">{{bote.description}}</a></td>
+                                                <td class="but">
+                                                    <input type="radio" name="choose" value="1">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div></div>
+                                    <div *ngIf="boteSeleccion">
+                                        <h5>Numero: {{boteSeleccion.num}}</h5>
+                                        <h5>Descripción: {{boteSeleccion.description}}</h5>
+                                        <input type="text" [(ngModel)]="boteSeleccion.description" placeholder="description" />
+                                        <button type="submit" class="contact_button" i18n>Cambiar</button>
+                                    </div>
+                                </div>
+                                <br>
+                                <h3 i18n>Ingresa la ubicación ubicación del bote de basura</h3>
+                                <div class="alignCenter">
+                                    <img src="assets/map.jpg" alt="map" height="350" width="350">
+                                </div>
+
+                                <br>
+                                <button type="submit" class="contact_button" i18n>Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

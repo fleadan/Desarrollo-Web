@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="96f09cf695efe10b45c4d666ff95d83559ca5f83" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Conocenos<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/header/header.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="efc7f042bfe8208b3df5d043890421d5275c7345" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Sign In<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/header/header.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="558a3d3e3e586f2aa27f29a3397b9a247fbc397d" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Log in<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/header/header.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="904c50366c7c94f7a242b111c4de8640240eac1a" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Contactanos<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/header/header.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3be23f6b147c9e7298bbae45789f456edf043d4c" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Eng<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/header/header.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="01e65bb92f4f2faebc1269388a854d33d8bf52fa" datatype="html">
+        <source>Comparte tu experiencia e invita a tus amigos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/footer/footer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd12d076cac9ac09e7a5711ea84f246d31ea958a" datatype="html">
+        <source>CDMXtrash</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/home-p/home-p.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5eb01be81c56d1009826caf4886432fae5ecf296" datatype="html">
+        <source>CDMXtrash, es un sistema encargado de ayudar a los usuarios de la Ciudad de México a localizar un lugar donde depositar su basura.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/home-p/home-p.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0d53fee5262d6a97cd0ef4a65d2740bd91b556d5" datatype="html">
+        <source>Leyendo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/home-p/home-p.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ebbe987819d967f3da666b153e89894d723632f5" datatype="html">
+        <source>Para recordar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2eda42b6200d8eeb8adef1ed9ca503ac9273e789" datatype="html">
+        <source>Conocenos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/menu/menu.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dcd47f4d6b26b045a1b041b2fc73123bc0cfc118" datatype="html">
+        <source>Log In</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ba4f24bf9bf3dc4db3d6bc1b8b63339295f0b806" datatype="html">
+        <source>Sign In</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="55cbe8446f9f24758c5b674429a57d00d7a7ce22" datatype="html">
+        <source>Contáctanos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c9b3a66c77c2284f1fea913a355e6e302636ee8c" datatype="html">
+        <source>Eng</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab5fcf2f3ad222a44b5405b3d14c5438d02e16fd" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>¿Quieres saber como funciona la plataforma?<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="906b867f6b0f99a3dff5c9afde5243593dbe51c4" datatype="html">
+        <source>Contamos con un sistema de geolocalización de los botes más cercanos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52ef8a9dda5048961b6707412ce1f23f07a81622" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>¿Sabes de la importancia del reciclaje?<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76abbfe645c63c8e2026dc6f6b988b8e109912ca" datatype="html">
+        <source>Enrique Orduña<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Marzo 05, 2020 a las 9:48 pm<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fac040b63c8f3bee626381ab7bf01d61e20843c4" datatype="html">
+        <source>Load More</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d1e8b409f560ae87d6422d45d2417c3f23fd9d72" datatype="html">
+        <source>Conamat</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="54b14bce3bf36db415aedd59bb154b70ff4323c5" datatype="html">
+        <source>¿Clases de regularización?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab11194d78b453ab6752ca064b11b9a4033857b9" datatype="html">
+        <source>Tecnológico de Monterrey</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08bd914164e13332329f427e56234875d7abefdd" datatype="html">
+        <source>Acercate al programa</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f24dc38bd1213836728c70fb6f2a676abe918d0" datatype="html">
+        <source>Planeación del proyecto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/contenido/contenido.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/menu/menu.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cde9420838feb094cfb2da73cfbe06e0bc142736" datatype="html">
+        <source>Log in </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/menu/menu.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dffe8950fd8308e5c349eee2af3cadf52a3eac8d" datatype="html">
+        <source>Sign in </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/menu/menu.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="775c4c314f62bd3905762bc46631878731c20ac8" datatype="html">
+        <source>Registrar botes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/menu/menu.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb694b49d408265c91c62799c2b3a7e3151c824d" datatype="html">
+        <source>Logout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modulosP/menu/menu.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

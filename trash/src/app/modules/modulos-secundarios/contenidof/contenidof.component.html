@@ -1,0 +1,124 @@
+<!-- Page Content -->
+
+<div class="page_content">
+    <div class="container">
+        <div class="row row-lg-eq-height">
+
+            <!-- Post Content -->
+
+            <div class="col-lg-9">
+                <div class="post_content">
+
+                    <!-- Top Panel -->
+                    <div class="post_panel post_panel_top d-flex flex-row align-items-center justify-content-start">
+                        <div class="author_image">
+                            <div><img src="assets/author.jpg" alt=""></div>
+                        </div>
+                        <div class="post_meta"><a href="#">Enrique Orduña</a><span i18n>Marzo 04, 2020 a las 16:19 am</span></div>
+                        <div class="post_share ml-sm-auto">
+                            <span i18n>share</span>
+                            <ul class="post_share_list">
+                                <li class="post_share_item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li class="post_share_item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li class="post_share_item"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Post Body -->
+
+                    <div class="post_body">
+                        <h3 i18n>Localiza los botes de basura más cercanos</h3>
+                        <p class="post_p" i18n>De acuerdo a tu ubicación te asignaremos la ruta al bote de basura más cercano</p>
+                        <figure>
+                            <img src="assets/map.jpg" alt="">
+                            <figcaption>Ciudad de México Contaminada</figcaption>
+                        </figure>
+
+                        <!--Elementos encontrados-->
+                        <h3>Fijar ruta de los elementos encontrados</h3>
+                        <div>
+
+
+                        </div>
+                        <table>
+                            <thead>
+                                <th>Bote</th>
+                                <th>Tipo</th>
+                                <th>Descripción</th>
+                                <th>Elección</th>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let bote of botes">
+                                    <td>{{bote.num}}</td>
+                                    <td>{{bote.name}}</td>
+                                    <td class="but1">{{bote.description}}</td>
+                                    <td class="but">
+                                        <a (click)="onSelect(bote)"><input type="radio" name="choose" value="1"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div></div>
+                        <div *ngIf="boteSeleccion">
+
+                            <h5>Bote: {{boteSeleccion.name}}</h5>
+                            <h5>Numero: {{boteSeleccion.num}}</h5>
+                            <h5>Descripción: {{boteSeleccion.description}}</h5>
+                            <button type="submit" class="contact_button" i18n>Fijar</button>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="load_more">
+                    <div id="load_more" class="load_more_button text-center trans_200" i18n>Load More</div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+
+            <!-- Sidebar -->
+            <div class="col-lg-3">
+                <div class="sidebar">
+                    <div class="sidebar_background">
+                    </div>
+                    <!-- Botes registrados -->
+                    <div></div>
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action active">Botes registrados</button>
+                        <button type="button" class="list-group-item list-group-item-action">#5485</button>
+                        <button type="button" class="list-group-item list-group-item-action">#5487</button>
+                        <button type="button" class="list-group-item list-group-item-action">#5787</button>
+                        <button type="button" class="list-group-item list-group-item-action">#5477</button>
+                    </div>
+                    <!-- Advertising 2 -->
+                    <div></div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/beca.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title" i18n>Tecnológico de Monterrey</h5>
+                            <p class="card-text" i18n>Acercate al programa</p>
+                            <a href="#" class="btn btn-primary">ITESM.mx</a>
+                        </div>
+                    </div>
+                    <!-- Future Events -->
+                    <div></div>
+                    <div class="sidebar_title" i18n>Planeación del proyecto</div>
+                    <!-- Avisos sobre botes -->
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action active">
+								Cras justo odio
+								</button>
+                        <button type="button" class="list-group-item list-group-item-action">#5477 Dañado</button>
+                        <button type="button" class="list-group-item list-group-item-action">#5485 Sin acceso</button>
+                        <button type="button" class="list-group-item list-group-item-action">#5487 Desaparecido</button>
+                        <button type="button" class="list-group-item list-group-item-action">#5485 Sucio</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
