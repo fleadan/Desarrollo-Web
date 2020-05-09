@@ -11,15 +11,18 @@ import { IndexRoutingModule } from './index-routing-module';
 import { FormsModule } from '@angular/forms';
 import { BarraComponent } from './barra/barra.component';
 import { ChartsModule} from  'ng2-charts';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserModule } from '@angular/platform-browser';
+import { ContenidoComponent } from './contenido/contenido.component';
 
 @NgModule({
-  declarations: [LoginComponent, SigninComponent, RegistrarComponent, ContenidofComponent, ContenidoCComponent, ContactComponent, BajaComponent],
+  declarations: [LoginComponent, SigninComponent, RegistrarComponent, ContenidofComponent,ContenidoComponent, ContenidoCComponent, ContactComponent, BajaComponent],
   imports: [
     CommonModule,
     IndexRoutingModule,
     FormsModule,
-    ChartsModule
+    ChartsModule,
+    BrowserModule
   ]
 })
 export class ModulosSecundariosModule { }

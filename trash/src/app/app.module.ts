@@ -22,6 +22,10 @@ import { ChartsModule} from  'ng2-charts';
 import { PageNotFoundComponent } from './main-components/page-not-found/page-not-found.component';
 
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
+
 registerLocaleData(localeEs,'es-MX');
 registerLocaleData(localeEn,'en');
 
@@ -31,7 +35,6 @@ registerLocaleData(localeEn,'en');
     HeaderComponent,
     FooterComponent,
     HomePComponent,
-    ContenidoComponent,
     MenuComponent,
     BarraComponent, 
     PageNotFoundComponent
@@ -41,7 +44,8 @@ registerLocaleData(localeEn,'en');
     ModulosSecundariosModule,
     AppRoutingModule,
     FormsModule,
-    ChartsModule
+    ChartsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

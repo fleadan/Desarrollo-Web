@@ -9,7 +9,7 @@
                     <!-- Post Comment -->
                     <div class="post_comment">
                         <div class="contact_form_container">
-                            <form>
+                            <form #formulario="ngForm">
                                 <br><br>
                                 <div class="alignCenter">
                                     <h3 i18n="@@registrar1">Ingresa el tipo de bote de basura</h3>
@@ -24,9 +24,10 @@
                                         <tbody>
                                             <tr *ngFor="let bote of botes">
                                                 <td>{{bote.name}}</td>
-                                                <td class="but1"> <a (click)="onSelect(bote)">{{bote.description}}</a></td>
+                                                <td class="but1">
+                                                    {{bote.description}}</td>
                                                 <td class="but">
-                                                    <input type="radio" name="choose" value="1">
+                                                    <a (click)="onSelect(bote)"><input type="radio" name="choose" value="1"></a>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -35,7 +36,7 @@
                                     <div *ngIf="boteSeleccion">
                                         <h5 i18n="@@registrar5">Numero: {{boteSeleccion.num}}</h5>
                                         <h5 i18n="@@registrar6">Descripción: {{boteSeleccion.description}}</h5>
-                                        <input type="text" [(ngModel)]="boteSeleccion.description" placeholder="description" />
+                                        <input type="text" [(ngModel)]="boteSeleccion.description" [ngModelOptions]="{standalone: true}" placeholder="description" />
                                         <button type="submit" class="contact_button" i18n>Cambiar</button>
                                     </div>
                                 </div>

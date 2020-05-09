@@ -25,7 +25,7 @@
                                 <div class="card card_largest_with_image grid-item">
                                     <img class="card-img-top" src="assets/fonfoi1.jpg" alt="https://unsplash.com/@cjtagupa">
                                     <div class="card-body">
-                                        <div class="card-title" i18n="@@contenido7"><a routerLink="barra">¿Quieres saber como funciona la plataforma?</a></div>
+                                        <div class="card-title" i18n="@@contenido7"><a>¿Quieres saber como funciona la plataforma?</a></div>
                                         <p class="card-text" i18n="@@contenido8">Contamos con un sistema de geolocalización de los botes más cercanos</p>
                                         <small class="post_meta">Enrique Orduña<span i18n="@@contenido9">Marzo 05, 2020 a las 9:48 pm</span></small>
                                     </div>
@@ -33,8 +33,18 @@
                                 <!-- Small Card Without Image -->
                                 <div class="card card_default card_small_no_image grid-item">
                                     <div class="card-body">
-                                        <div class="card-title card-title-small" i18n="@@contenido10"><a href="post.html">¿Sabes de la importancia del reciclaje?</a></div>
+                                        <div class="card-title card-title-small" i18n="@@contenido10"><a>¿Sabes de la importancia del reciclaje?</a></div>
                                         <small class="post_meta">Enrique Orduña<span i18n="@@contenido11">Marzo 05, 2020 a las 9:48 pm</span></small>
+                                    </div>
+                                </div>
+                                <!-- Small Card Without Image -->
+                                <div class="card card_default card_small_no_image grid-item">
+                                    <div class="card-body">
+                                        <div class="card-title card-title-small" i18n="@@contenido10"><a>Para saber de los creadores</a></div>
+                                        <button type="button" (click)='animateMe()' class="contact_button">Mostrar</button>
+                                        <div class="inner">
+                                            <p [@myButton]='state'>Enrique Orduña Ávila, estudio en el Tecnológico de Monterrey, es Ingeniero en Tecnologías Computacionales y se encuentra en el 4to Semestre</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

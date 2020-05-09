@@ -11,10 +11,10 @@ import { BajaComponent } from './baja/baja.component';
 import { BarraComponent } from './barra/barra.component';
 
 const rutas: Routes=[
-    {path: 'conocenos', component: ContenidoCComponent},
+    {path: 'conocenos', component: ContenidoCComponent, data: {animation: 'MeetPage'}},
     {path: 'barra', component: BarraComponent},
     {path: 'contactanos', component: ContactComponent},
-    {path: 'index', component: ContenidoComponent},
+    {path: 'index', component: ContenidoComponent, data: {animation: 'HomePage'}},
     {path: 'signin', component: SigninComponent},
     {path: 'login', component: LoginComponent},
     {path: 'find', component: ContenidofComponent},
