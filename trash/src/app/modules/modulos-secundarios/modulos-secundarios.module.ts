@@ -13,7 +13,8 @@ import { BarraComponent } from './barra/barra.component';
 import { ChartsModule} from  'ng2-charts';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
-import { ContenidoComponent } from './contenido/contenido.component';
+import { ContenidoComponent } from './contenido/contenido.component'; 
+import { StorageServiceModule } from 'ngx-webstorage-service'
 
 @NgModule({
   declarations: [LoginComponent, SigninComponent, RegistrarComponent, ContenidofComponent,ContenidoComponent, ContenidoCComponent, ContactComponent, BajaComponent],
@@ -22,7 +23,8 @@ import { ContenidoComponent } from './contenido/contenido.component';
     IndexRoutingModule,
     FormsModule,
     ChartsModule,
-    BrowserModule
+    BrowserModule,
+    StorageServiceModule
   ]
 })
 export class ModulosSecundariosModule { }

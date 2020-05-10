@@ -10,6 +10,10 @@
                 <div class="post_content">
 
                     <!-- Top Panel -->
+                    <button (click)="load()">Cargar info local storage </button>
+                    <div *ngFor = "let usuario of usuarios">
+                        <h2>{{usuarios}}</h2>
+                    </div>
                     <div class="post_panel post_panel_top d-flex flex-row align-items-center justify-content-start">
                         <div class="author_image">
                             <div><img src="assets/author.jpg" alt=""></div>

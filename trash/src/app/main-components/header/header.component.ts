@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LocalStorageService } from 'src/app/modules/modulos-secundarios/contenidof/services/local-storage.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(public localStorageService:LocalStorageService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void 
+  {
+    this.localStorageService.storeOnLocalStorage('Diego Ramírez');
   }
 
 }

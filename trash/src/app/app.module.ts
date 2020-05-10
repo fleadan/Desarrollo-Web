@@ -20,7 +20,7 @@ import { ContenidoComponent } from './modules/modulos-secundarios/contenido/cont
 import { BarraComponent } from './modules/modulos-secundarios/barra/barra.component';
 import { ChartsModule} from  'ng2-charts';
 import { PageNotFoundComponent } from './main-components/page-not-found/page-not-found.component';
-
+import { StorageServiceModule } from 'ngx-webstorage-service'
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -45,7 +45,8 @@ registerLocaleData(localeEn,'en');
     AppRoutingModule,
     FormsModule,
     ChartsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    StorageServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
