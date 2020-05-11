@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { LocalStorageService } from './services/local-storage.service';
+import { WelcomeService } from './services/welcome.service';
+import { Subscription } from 'rxjs';
+import { DataService } from '../services/data.service';
+import { BotesService } from '../services/botes.service';
 
 @Component({
   selector: 'app-contenidof',
@@ -22,9 +26,18 @@ export class ContenidofComponent implements OnInit {
     {name:"Baterias", num:"7891",description: 'Cargadores o equipos electrónicos'},
     {name:"Papel", num:"8912",description: 'Folletos, libretas, etc.'}];
 
-  constructor(private localStorageService: LocalStorageService ) { }
+    sub:Subscription;
+    recep;
+  constructor(private localStorageService: LocalStorageService, public welcomeService: WelcomeService, public dataService: DataService, public boteService: BotesService) {
+
+  this.sub = welcomeService.datoRec.subscribe(datoRec=> this.recep= datoRec);
+  
+   }
 
   ngOnInit(): void {
+    
+    this.localStorageService.storeOnLocalStorage('diego ramirez');
+    
   }
 
 
@@ -33,6 +46,10 @@ export class ContenidofComponent implements OnInit {
     this.boteSeleccion = bote;
   }
 
+  cargar(){
+
+    this.boteService.estBote = 'Dañado hueheu'
+  }
   load()
   {
     this.usuarios = this.localStorageService.readLocalStorage();

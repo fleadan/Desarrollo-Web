@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void 
   {
-    this.localStorageService.storeOnLocalStorage('Diego Ramírez');
+    this.localStorageService.storeOnLocalStorage('');
   }
 
 }

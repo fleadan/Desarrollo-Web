@@ -11,7 +11,7 @@ export class LocalStorageService {
 
   public storeOnLocalStorage(user:String):void
   {
-    const userListStorage = this.storage.get('USER_LIST');
+    const userListStorage = this.storage.get('USER_LIST') || [];
     userListStorage.push({username: user, fecha: new Date()});
     this.storage.set('USER_LIST', userListStorage);
     this.userList = userListStorage; 

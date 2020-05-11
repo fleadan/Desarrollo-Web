@@ -10,9 +10,10 @@
                 <div class="post_content">
 
                     <!-- Top Panel -->
-                    <button (click)="load()">Cargar info local storage </button>
-                    <div *ngFor = "let usuario of usuarios">
-                        <h2>{{usuarios}}</h2>
+                    <h2>Welcome {{dataService.nombreUsuario}}!</h2>
+                    <button (click)="load()" class="load_more_button text-center trans_200">Today's Info</button>
+                    <div *ngFor = "let usuario of usuarios; last as isFirst">
+                        <h2 appFuente><span *ngIf="isFirst"> Today is {{usuario.fecha}} </span></h2>
                     </div>
                     <div class="post_panel post_panel_top d-flex flex-row align-items-center justify-content-start">
                         <div class="author_image">
@@ -84,11 +85,12 @@
                 <div class="sidebar">
                     <div class="sidebar_background">
                     </div>
+                    
                     <!-- Botes registrados -->
                     <div></div>
                     <div class="list-group">
                         <button type="button" class="list-group-item list-group-item-action active" data-i18n="@@contenidof15">Botes registrados</button>
-                        <button type="button" class="list-group-item list-group-item-action">#5485</button>
+                        <button type="button" class="list-group-item list-group-item-action">#{{boteService.numeBote}}</button>
                         <button type="button" class="list-group-item list-group-item-action">#5487</button>
                         <button type="button" class="list-group-item list-group-item-action">#5787</button>
                         <button type="button" class="list-group-item list-group-item-action">#5477</button>
@@ -105,17 +107,19 @@
                     </div>
                     <!-- Future Events -->
                     <div></div>
-                    <div class="sidebar_title" i18n="@@contenidof18">Planeación del proyecto</div>
+                    <div><button type="button" class="load_more_button text-center trans_200" (click)="cargar()">Reportar</button></div>
                     <!-- Avisos sobre botes -->
                     <div class="list-group">
                         <button type="button" class="list-group-item list-group-item-action active" data-i18n="@@contenidof19">
 								Colección de botes
 								</button>
-                        <button type="button" class="list-group-item list-group-item-action" data-i18n="@@contenidof19">#5477 Dañado</button>
+                        <button type="button" class="list-group-item list-group-item-action" data-i18n="@@contenidof19">#5477 {{boteService.estBote}}</button>
                         <button type="button" class="list-group-item list-group-item-action" data-i18n="@@contenidof20">#5485 Sin acceso</button>
                         <button type="button" class="list-group-item list-group-item-action" data-i18n="@@contenidof21">#5487 Desaparecido</button>
                         <button type="button" class="list-group-item list-group-item-action" data-i18n="@@contenidof22">#5485 Sucio</button>
                     </div>
+
+                   
                 </div>
             </div>
         </div>

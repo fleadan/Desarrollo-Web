@@ -14,10 +14,12 @@ import { ChartsModule} from  'ng2-charts';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { ContenidoComponent } from './contenido/contenido.component'; 
-import { StorageServiceModule } from 'ngx-webstorage-service'
+import { StorageServiceModule } from 'ngx-webstorage-service';
+import { FuenteDirective } from './directives/fuente.directive';
+
 
 @NgModule({
-  declarations: [LoginComponent, SigninComponent, RegistrarComponent, ContenidofComponent,ContenidoComponent, ContenidoCComponent, ContactComponent, BajaComponent],
+  declarations: [LoginComponent, SigninComponent, RegistrarComponent, ContenidofComponent,ContenidoComponent, ContenidoCComponent, ContactComponent, BajaComponent, FuenteDirective],
   imports: [
     CommonModule,
     IndexRoutingModule,

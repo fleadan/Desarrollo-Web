@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BotesService } from '../services/botes.service';
 
 @Component({
   selector: 'app-registrar',
@@ -19,7 +20,7 @@ desBote: string = "Basura que no se puede reciclar y/o bolsas de plastico";
       {name:"Baterias", num:"7891",description: 'Cargadores o equipos electrónicos'},
       {name:"Papel", num:"8912",description: 'Folletos, libretas, etc.'}];
 
-    constructor() { }
+    constructor(private boteService: BotesService) { }
 
     ngOnInit(): void {
     }
@@ -28,4 +29,8 @@ desBote: string = "Basura que no se puede reciclar y/o bolsas de plastico";
       this.boteSeleccion = bote;
     }
 
+    sand(){
+      
+      this.boteService.numeBote = '5673';
+    }
 }
